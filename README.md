@@ -1,3 +1,7 @@
+# Séries Temporais
+
+## Repositório criado para armazenamento do banco de dados e descrições para a matéria de **Séries Temporais 2020.2** do Departamento de Estatística da UFPB (DE-UFPB)
+
 O banco usado para esse trabalho foi retirado do site [Bureau of Justice](https://www.bjs.gov/index.cfm?ty=pbse&sid=40), foi montado através dos dados presentes em:
 - [Prisioners in 2019](https://www.bjs.gov/index.cfm?ty=pbdetail&iid=7106),
 - [Prisoners In 2009 (Revised)](https://www.bjs.gov/index.cfm?ty=pbdetail&iid=2232),
