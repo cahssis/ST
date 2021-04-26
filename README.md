@@ -8,5 +8,6 @@ O banco usado para esse trabalho foi retirado do site [Bureau of Justice](https:
 - [Prisoners In 2001](https://www.bjs.gov/index.cfm?ty=pbdetail&iid=926),
 - E [Prisoners In 1994](https://www.bjs.gov/index.cfm?ty=pbdetail&iid=1280),
 
-onde foram coletados o número total de prisioneiros em prisões Federais e Estaduais, por ano, de 1990 até 2019. O banco em questão foi nomeado como **CarolineAssis.txt**,
-e também está neste repositório.
+onde foram coletados o número total de prisioneiros em prisões Federais e Estaduais, por ano, de 1990 até 2019. 
+
+Neste repositório se encontram o banco usado, nomeado como **CarolineAssis.txt**; um arquivo contendo descrições detalhadas e análises do banco de dados, nomeado como **trabalho1_CarolineAssis.pdf**; e também o script, em R, usado para as análises, nomeado como **script_CarolineAssis.R**.
