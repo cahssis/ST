@@ -15,20 +15,20 @@ par(mfrow=c(1,2))
 acf(federal.ts)
 pacf(federal.ts)
 stationary.test(federal.ts, method = "pp")
-# dado que n„o È estacion·rios veremos quantas diferenÁas ser„o necess·rias
+# dado que n√£o √© estacion√°rios veremos quantas diferen√ßas ser√£o necess√°rias
 ndiffs(federal.ts)
-# tambÈm podemos aplicar uma transformaÁ„o, nesse caso vamos usar a 
-#transformaÁ„o log
+# tamb√©m podemos aplicar uma transforma√ß√£o, nesse caso vamos usar a 
+#transforma√ß√£o log
 federal.ts_transf = ts(log(federal.ts), start = 1990, end = 2019, 
                        frequency = 1)
 ndiffs(federal.ts_transf)
-# vemos que mesmo com a transformaÁ„o continua sendo n„o est·cion·ria, ent„o
-#vamos partir para as diferenciaÁıes
+# vemos que mesmo com a transforma√ß√£o continua sendo n√£o est√°cion√°ria, ent√£o
+#vamos partir para as diferencia√ß√µes
 federal.ts_diff = diff(diff(federal.ts))
 stationary.test(federal.ts_diff, method = "pp")
 ndiffs(federal.ts_diff)
-# agora temos uma sÈrie estacion·ria
+# agora temos uma s√©rie estacion√°ria
 plot(federal.ts_diff)
 acf(federal.ts_diff)
 pacf(federal.ts_diff)
-federal.stl = decompose(federal.ts_diff)
+ndiffs(federal.ts_diff)
